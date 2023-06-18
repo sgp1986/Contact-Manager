@@ -1,0 +1,52 @@
+body {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+div {
+  display: block;
+}
+
+p {
+  display: block;
+  margin: 0 0 10px;
+
+}
+
+header {
+  background-color: #6f5499;
+  background-image: linear-gradient(to bottom, #563d7c 0, #6f5499 100%);
+  box-sizing: border-box;
+  color: white;
+  display: block;
+  font-size: 20px;
+  letter-spacing: 1px;
+  position: relative;
+  padding: 30px 15px;
+  text-shadow: 0 1px 0 rgba(0,0,0,1);
+}
+
+header a {
+  color: inherit;
+}
+
+header p {
+  margin-bottom: 0;
+  font-weight: 300;line-height: 1.4;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+
+

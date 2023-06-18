@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact Manager</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,600;1,600&family=Roboto+Condensed&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./stylesheets/stylesheet.css" />
+  <script src="/javascripts/jquery.js"></script>
+  <script src="/javascripts/handlebars.js"></script>
+</head>
+<body>
+  <header class="bs-header">
+    <div class="container">
+      <a href="#">
+        <h1>Contact Manager</h1>
+      </a>
+      <p>Using JavaScript, HTML, CSS, and Handlebars - Plus whatever from the file from LS</p>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      NOTE - BUTTONS ARE A TAGS NOT ACTUAL BUTTONS & hover changes color<br>
+      Add Contact Button<br>
+      Search Bar<br>
+      side by side if fits, else stacked - greyish bg for this div<br>
+      IF NO CONTACTS - div box same color saying no contacts and add contact button<br>
+      IF CONTACTS - div no bg ul list of contacts no bullet each li is a box of name heading with phone number: number, email: email, edit button and delete button, new line for each<br>
+      if contacts fit - eack li is next to each other w/ no line - else stacked w/ line separating at bottom<br>
+      Empty search contacts placeholder - no content until searching<br>
+      IF SEARCH BRINGS UP CONTACT - show only matching contacts<br>
+      IF NO CONTACT MATCHES - show box same color as other with message showing search input updated as typing<br>
+      searches name only<br>
+      ADDING CONTACT<br>
+      is its own route - /#contacts/new
+      slides up from bottom<br>
+      create contact heading - full name, email, number labels and inputs, submit and cancel button<br>
+      cancel slides home screen back from bottom<br>
+      submitting contact slides home back up from bottom<br>
+      submitting invalid form does not move away from page - highlights missing input with message below input box<br>
+      email must have @ and domain.com<br>
+      no checks for duplicates<br>
+      EDIT CONTACT<br>
+      is its own route - /#contacts/edit/contactId
+      similar to new contact just with input filled in<br>
+      DELETE CONTACT<br>
+      brings up alert asking to confirm deletion<br>
+      deleting all contacts brings back original home page with no contacts info box<br>
+      deleting contact frees up contactId number<br>
+      FOOTER<br>
+      line separating body divs from footer<br>
+      One line Developed by xxx and xxx.<br>
+      <br>
+      OBJECTS<br>
+      Contact - id, name, email, number, tags properties<br>
+      Tags - collection of tags on each contact<br>
+      List - collection of contacts<br>
+      BEHAVIORS<br>
+      search, add, edit, delete, filter tags<br>
+    </div>
+  </main>
+  </body>
+</body>
+</html>
