@@ -1,0 +1,12 @@
+<div class="my-template">
+  {{#if contacts.length}}
+    Here are the contacts:
+    <ul>
+      {{#each contacts}}
+        <li>{{this}}</li>
+      {{/each}}
+    </ul>
+  {{else}}
+    There are no Contacts to Display.
+  {{/if}}
+</div>

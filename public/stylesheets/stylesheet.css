@@ -13,6 +13,10 @@ div {
   display: block;
 }
 
+li {
+  list-style: none;
+}
+
 p {
   display: block;
   margin: 0 0 10px;
@@ -44,9 +48,28 @@ header p {
 .container {
   margin-right: auto;
   margin-left: auto;
+  margin-top: 10px;
   padding-left: 15px;
   padding-right: 15px;
   text-align: center;
+}
+
+.button {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  color: #563d7c;
+  background-color: transparent;
+  border-color: #563d7c;
+  border-radius: 6px;
+  font-size: 18px;
+  outline: black 1px;
+  padding: 10px 16px;
 }
 
 
